@@ -1,0 +1,6 @@
+com\dc\rpc\provider\RpcProviderAutoConfiguration.class
+com\dc\rpc\provider\RpcProvider$1.class
+com\dc\rpc\provider\RpcProvider.class
+com\dc\rpc\provider\RpcProviderApplication.class
+com\dc\rpc\provider\annotation\RpcService.class
+com\dc\rpc\provider\demo\HelloFacadeImpl.class

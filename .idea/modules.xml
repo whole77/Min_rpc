@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/min_rpc.iml" filepath="$PROJECT_DIR$/min_rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_consumer/rpc_consumer.iml" filepath="$PROJECT_DIR$/rpc_consumer/rpc_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_core/rpc_core.iml" filepath="$PROJECT_DIR$/rpc_core/rpc_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_interface/rpc_interface.iml" filepath="$PROJECT_DIR$/rpc_interface/rpc_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_protocol/rpc_protocol.iml" filepath="$PROJECT_DIR$/rpc_protocol/rpc_protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_provider/rpc_provider.iml" filepath="$PROJECT_DIR$/rpc_provider/rpc_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc_registry/rpc_registry.iml" filepath="$PROJECT_DIR$/rpc_registry/rpc_registry.iml" />
+    </modules>
+  </component>
+</project>

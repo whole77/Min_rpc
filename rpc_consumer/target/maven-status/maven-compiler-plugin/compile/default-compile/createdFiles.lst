@@ -1,0 +1,8 @@
+com\mini\rpc\consumer\annotation\RpcReference.class
+com\dc\rpc\consumer\RpcReferenceBean.class
+com\dc\rpc\consumer\RpcInvokerProxy.class
+com\dc\rpc\consumer\controller\HelloController.class
+com\dc\rpc\consumer\RpcConsumer$1.class
+com\dc\rpc\consumer\RpcConsumerPostProcessor.class
+com\dc\rpc\consumer\RpcConsumer.class
+com\dc\rpc\consumer\RpcConsumerApplication.class
