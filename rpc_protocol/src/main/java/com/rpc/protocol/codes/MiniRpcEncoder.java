@@ -1,5 +1,6 @@
 package com.rpc.protocol.codes;
 
+import com.dc.rpc.core.ExtensionLoader;
 import com.rpc.protocol.protocol.MiniRpcProtocol;
 import com.rpc.protocol.protocol.MsgHeader;
 import com.rpc.protocol.serialization.RpcSerialization;
@@ -7,6 +8,8 @@ import com.rpc.protocol.serialization.SerializationFactory;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
+
+import java.util.ServiceLoader;
 
 /**
  * @Author: LaiLai
@@ -19,12 +22,14 @@ public class MiniRpcEncoder extends MessageToByteEncoder<MiniRpcProtocol<Object>
         //将请求头进行编码处理
         byteBuf.writeShort(header.getMagic());
         byteBuf.writeByte(header.getVersion());
-        byteBuf.writeByte(header.getSerialization());
+//        byteBuf.writeByte(header.getSerialization());
         byteBuf.writeByte(header.getMsgType());
         byteBuf.writeByte(header.getStatus());
         byteBuf.writeLong(header.getRequestId());
         //请求体先序列化再编码
-        RpcSerialization rpcSerialization = SerializationFactory.getRpcSerialization(header.getSerialization());
+//        RpcSerialization rpcSerialization = SerializationFactory.getRpcSerialization(header.getSerialization());
+        ExtensionLoader<RpcSerialization> extensionLoader = ExtensionLoader.getExtensionLoader(RpcSerialization.class);
+        RpcSerialization rpcSerialization = extensionLoader.getExtension("hessian");
         byte[] serializeByte = rpcSerialization.serialize(miniRpcProtocol.getBody());
         int len = serializeByte.length;
         byteBuf.writeInt(len);

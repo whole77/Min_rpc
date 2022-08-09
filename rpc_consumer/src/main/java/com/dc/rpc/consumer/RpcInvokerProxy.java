@@ -56,7 +56,7 @@ public class RpcInvokerProxy implements InvocationHandler {
         //消息id
         header.setRequestId(requestId);
         //序列化方式
-        header.setSerialization((byte) SerializationTypeEnum.HESSIAN.getType());
+//        header.setSerialization((byte) SerializationTypeEnum.HESSIAN.getType());
         //消息类型
         header.setMsgType((byte) MsgType.REQUEST.getType());
         //消息状态

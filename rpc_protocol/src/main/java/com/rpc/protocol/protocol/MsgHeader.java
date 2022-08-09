@@ -23,7 +23,7 @@ public class MsgHeader {
     // 协议版本号
     private byte version;
     // 序列化方式
-    private byte serialization;
+//    private byte serialization;
     //消息类型
     private byte msgType;
     // 消息状态

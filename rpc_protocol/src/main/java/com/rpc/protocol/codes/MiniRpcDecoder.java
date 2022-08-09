@@ -1,5 +1,6 @@
 package com.rpc.protocol.codes;
 
+import com.dc.rpc.core.ExtensionLoader;
 import com.dc.rpc.core.MiniRpcRequest;
 import com.dc.rpc.core.MiniRpcResponse;
 import com.rpc.protocol.protocol.MiniRpcProtocol;
@@ -15,6 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
+import java.util.ServiceLoader;
 
 /**
  * @Author: LaiLai
@@ -52,7 +54,7 @@ public class MiniRpcDecoder extends ByteToMessageDecoder {
         //读取一个字节的协议版本号
         byte version = in.readByte();
         //读取协议消息体的序列化方式
-        byte serializeType = in.readByte();
+//        byte serializeType = in.readByte();
         //读取报文的类型
         byte msgType = in.readByte();
         //读取报文的状态
@@ -80,14 +82,14 @@ public class MiniRpcDecoder extends ByteToMessageDecoder {
         MsgHeader header = new MsgHeader();
         header.setMagic(magic);
         header.setVersion(version);
-        header.setSerialization(serializeType);
+//        header.setSerialization(serializeType);
         header.setStatus(status);
         header.setRequestId(requestId);
         header.setMsgType(msgType);
         header.setMsgLen(dataLength);
 
-        //获取序列化接口实现类
-        RpcSerialization rpcSerialization = SerializationFactory.getRpcSerialization(serializeType);
+        ExtensionLoader<RpcSerialization> extensionLoader = ExtensionLoader.getExtensionLoader(RpcSerialization.class);
+        RpcSerialization rpcSerialization = extensionLoader.getExtension("hessian");
         //因为编解码器在服务端和客户端都存在所以设置为复用类型
         //根据MsgType，需要反序列化出不同的协议体对象
         switch (msgTypeEnum) {

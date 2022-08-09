@@ -16,7 +16,7 @@ import java.io.IOException;
 public class HelloController {
     private static final Logger LOGGER = LoggerFactory.getLogger(HelloController.class);
     @SuppressWarnings({"SpringJavaAutowiredFieldsWarningInspection", "SpringJavaInjectionPointsAutowiringInspection"})
-    @RpcReference(serviceVersion = "1.0.0", timeout = 3000)
+    @RpcReference(serviceVersion = "1.0.0", timeout = 5000)
     private HelloFacade helloFacade;
     @Autowired
     ApplicationContext applicationContext;
