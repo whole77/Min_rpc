@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d6ce591-81b9-4b1f-9b5f-05ec3011ffe4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_api_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_core_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_core/src/main/java/com/dc/rpc/core/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_core/src/main/java/com/dc/rpc/core/annotation/SPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/META-INF/services/com.rpc.protocol.serialization.RpcSerialization" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/com/dc/rpc/core/ExtensionLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/com/dc/rpc/core/Holder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/com/dc/rpc/core/annotation/SPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/kryo/kryoSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/protobuf/ProtobufSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/protobuf/ProtobufSerialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mini_rpc_rpc_registry_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/ZookeeperRegistryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/loadbalancer/ServiceLoadBalancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/loadbalancer/ZKConsistentHashLoadBalancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_consumer/rpc_consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_consumer/rpc_consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_core/src/main/resources/META-INF/services/com.rpc.protocol.serialization.RpcSerialization" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/src/main/resources/META-INF/services/com.rpc.protocol.serialization.RpcSerialization" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/rpc_protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/rpc_protocol.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/HessianSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/hession2/HessianSerialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/SerializationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/SerializationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/HessianSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/hession2/HessianSerialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_provider/rpc_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_provider/rpc_provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_provider/target/classes/META-INF/rpc_provider.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_registry/rpc_registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_registry/rpc_registry.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="214" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\min_rpc\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.3\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28eJJNt92n2vAtYviFobGcdmiGK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rpcDemo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rpc.protocol.protocol" />
+      <recent name="com.dc.rpc.consumer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\min_rpc" />
+      <recent name="F:\min_rpc\rpc_provider\src\main\resources\META-INF" />
+      <recent name="F:\min_rpc\rpc_consumer\src\main\resources\META-INF" />
+      <recent name="F:\min_rpc\rpc_core\src\main\resources\META-INF\services" />
+      <recent name="F:\min_rpc\rpc_protocol\src\main\resources\META-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rpc.protocol.serialization" />
+      <recent name="com.rpc.protocol" />
+      <recent name="com.dc.rpc" />
+      <recent name="com.dc.rpc.consumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rpc.protocol.serialization.hession2" />
+      <recent name="com.dc.rpc.core.annotation" />
+      <recent name="com.dc.rpc.registry" />
+      <recent name="com.dc.rpc.registry.loadbalancer" />
+      <recent name="com.dc.rpc.provider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RpcProviderApplication">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rpc.protocol.Solution" />
+      <module name="rpc_protocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rpc.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in rpc_provider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpc_provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinRpcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="min_rpc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lailai.min_rpc.MinRpcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="rpc_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dc.rpc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dc.rpc.consumer.RpcConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rpc_provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dc.rpc.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dc.rpc.provider.RpcProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.All in rpc_provider" />
+      <item itemvalue="Spring Boot.MinRpcApplication" />
+      <item itemvalue="Spring Boot.RpcConsumerApplication" />
+      <item itemvalue="Spring Boot.RpcProviderApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RpcProviderApplication" />
+        <item itemvalue="Spring Boot.RpcConsumerApplication" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.All in rpc_provider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d6ce591-81b9-4b1f-9b5f-05ec3011ffe4" name="Default Changelist" comment="" />
+      <created>1651571044443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651571044443</updated>
+      <workItem from="1651571049222" duration="20035000" />
+      <workItem from="1651652063569" duration="50234000" />
+      <workItem from="1651931971109" duration="11770000" />
+      <workItem from="1652230353233" duration="2668000" />
+      <workItem from="1652318110797" duration="9119000" />
+      <workItem from="1652775782446" duration="146000" />
+      <workItem from="1654047455970" duration="16043000" />
+      <workItem from="1654493433555" duration="1029000" />
+      <workItem from="1654828010476" duration="1224000" />
+      <workItem from="1660031075429" duration="6128000" />
+      <workItem from="1660044504112" duration="5268000" />
+      <workItem from="1660098201674" duration="4963000" />
+      <workItem from="1660113898880" duration="3807000" />
+      <workItem from="1660118082244" duration="567000" />
+      <workItem from="1660118670196" duration="6581000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一版本">
+      <created>1654096369148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654096369148</updated>
+    </task>
+    <task id="LOCAL-00002" summary="结点Dubbo思路增加增强版spi机制">
+      <created>1660050969713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660050969713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一版本" />
+    <MESSAGE value="结点Dubbo思路增加增强版spi机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="结点Dubbo思路增加增强版spi机制" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcDecoder.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc_consumer/src/main/java/com/dc/rpc/consumer/RpcInvokerProxy.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/min_rpc$RpcProviderApplication.ic" NAME="RpcProviderApplication Coverage Results" MODIFIED="1654093121096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dc.rpc.provider.*</FILTER>
+    </SUITE>
+  </component>
+</project>

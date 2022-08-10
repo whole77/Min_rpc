@@ -29,7 +29,7 @@ public class MiniRpcEncoder extends MessageToByteEncoder<MiniRpcProtocol<Object>
         //请求体先序列化再编码
 //        RpcSerialization rpcSerialization = SerializationFactory.getRpcSerialization(header.getSerialization());
         ExtensionLoader<RpcSerialization> extensionLoader = ExtensionLoader.getExtensionLoader(RpcSerialization.class);
-        RpcSerialization rpcSerialization = extensionLoader.getExtension("hessian");
+        RpcSerialization rpcSerialization = extensionLoader.getExtension("kryo");
         byte[] serializeByte = rpcSerialization.serialize(miniRpcProtocol.getBody());
         int len = serializeByte.length;
         byteBuf.writeInt(len);

@@ -1,7 +1,9 @@
-package com.rpc.protocol.serialization;
+package com.rpc.protocol.serialization.hession2;
 
 import com.caucho.hessian.io.HessianSerializerInput;
 import com.caucho.hessian.io.HessianSerializerOutput;
+import com.rpc.protocol.serialization.RpcSerialization;
+import com.rpc.protocol.serialization.SerializationException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

@@ -28,7 +28,7 @@ public class MiniRpcDecoder extends ByteToMessageDecoder {
 
     /*
     +---------------------------------------------------------------+
-    | 魔数 2byte | 协议版本号 1byte | 序列化算法 1byte | 报文类型 1byte  |
+//    | 魔数 2byte | 协议版本号 1byte | //序列化算法 1byte//(使用spi机制)) | 报文类型 1byte  |
     +---------------------------------------------------------------+
     | 状态 1byte |        消息 ID 8byte     |      数据长度 4byte     |
     +---------------------------------------------------------------+
@@ -89,7 +89,7 @@ public class MiniRpcDecoder extends ByteToMessageDecoder {
         header.setMsgLen(dataLength);
 
         ExtensionLoader<RpcSerialization> extensionLoader = ExtensionLoader.getExtensionLoader(RpcSerialization.class);
-        RpcSerialization rpcSerialization = extensionLoader.getExtension("hessian");
+        RpcSerialization rpcSerialization = extensionLoader.getExtension("kryo");
         //因为编解码器在服务端和客户端都存在所以设置为复用类型
         //根据MsgType，需要反序列化出不同的协议体对象
         switch (msgTypeEnum) {

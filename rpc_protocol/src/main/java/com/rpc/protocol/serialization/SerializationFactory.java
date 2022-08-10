@@ -1,5 +1,7 @@
 package com.rpc.protocol.serialization;
 
+import com.rpc.protocol.serialization.hession2.HessianSerialization;
+
 /**
  * 序列化工厂
  */

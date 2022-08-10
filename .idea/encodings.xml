@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc_consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rpc_core/src/main/java/com/dc/rpc/core/annotation/SPI.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/rpc_core/src/main/java/com/dc/rpc/core/annotation/SPI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc_core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_interface/src/main/Java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc_interface/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_protocol" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_protocol/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc_protocol/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_registry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc_registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc_registry/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

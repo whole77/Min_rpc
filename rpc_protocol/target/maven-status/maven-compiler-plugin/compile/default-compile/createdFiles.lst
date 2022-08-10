@@ -1,5 +1,6 @@
 com\rpc\protocol\serialization\SerializationFactory$1.class
 com\rpc\protocol\codes\MiniRpcEncoder.class
+com\rpc\protocol\serialization\hession2\HessianSerialization.class
 com\rpc\protocol\protocol\MsgHeader.class
 com\rpc\protocol\codes\MiniRpcDecoder$1.class
 com\rpc\protocol\serialization\SerializationFactory.class
@@ -10,8 +11,8 @@ com\rpc\protocol\serialization\SerializationException.class
 com\rpc\protocol\handler\RpcRequestHandler.class
 com\rpc\protocol\serialization\RpcSerialization.class
 com\rpc\protocol\handler\RpcResponseHandler.class
+com\rpc\protocol\serialization\protobuf\ProtobufSerialization.class
 com\rpc\protocol\serialization\SerializationTypeEnum.class
-com\rpc\protocol\serialization\HessianSerialization.class
 com\rpc\protocol\protocol\ProtocolConstants.class
 com\rpc\protocol\protocol\MiniRpcProtocol.class
 com\rpc\protocol\protocol\MsgStatus.class
