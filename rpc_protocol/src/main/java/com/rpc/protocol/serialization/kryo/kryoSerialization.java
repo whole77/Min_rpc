@@ -19,6 +19,9 @@ public class kryoSerialization implements RpcSerialization {
     private static Logger logger = LoggerFactory.getLogger(kryoSerialization.class);
     /**
      * 由于kryo不是线程安全的，所以每个线程都使用独立的kryo
+     * withInitial为threadlocal静态内部类中的SuppliedThreadLocal中的成员变量supplier赋予值，并且重写了父类中的initialValue
+     * supplier接口上面加了函数时注解@FunctionalInterface那么就用lambda来表达其中的一个实现
+     * 调用get方法后会调用setInitialValue()然后会调用initialValue()方法从而获取到lambda中的值
      */
     private final ThreadLocal<Kryo> kryoThreadLocal = ThreadLocal.withInitial(() -> {
         Kryo kryo = new Kryo();
@@ -47,6 +50,7 @@ public class kryoSerialization implements RpcSerialization {
             Kryo kryo = kryoThreadLocal.get();
             // byte->Object:从byte数组中反序列化出对对象
             Object o = kryo.readObject(input, clazz);
+            //threadMap中key为threadLocal的弱引用使用完后需要remove()
             kryoThreadLocal.remove();
             return clazz.cast(o);
         } catch (Exception e) {

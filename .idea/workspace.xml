@@ -5,58 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6ce591-81b9-4b1f-9b5f-05ec3011ffe4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_api_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_core_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_core/src/main/java/com/dc/rpc/core/Holder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_core/src/main/java/com/dc/rpc/core/annotation/SPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/META-INF/services/com.rpc.protocol.serialization.RpcSerialization" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/com/dc/rpc/core/ExtensionLoader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/com/dc/rpc/core/Holder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_core/target/classes/com/dc/rpc/core/annotation/SPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/kryo/kryoSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/protobuf/ProtobufSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/protobuf/ProtobufSerialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mini_rpc_rpc_registry_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/RegistryType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/ZookeeperRegistryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/loadbalancer/ServiceLoadBalancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpc_registry/com/dc/rpc/registry/loadbalancer/ZKConsistentHashLoadBalancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_consumer/rpc_consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_consumer/rpc_consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_consumer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/src/main/resources/META-INF/services/com.rpc.protocol.serialization.RpcSerialization" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/src/main/resources/META-INF/services/com.rpc.protocol.serialization.RpcSerialization" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/rpc_protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/rpc_protocol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/codes/MiniRpcEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/HessianSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/hession2/HessianSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/SerializationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/SerializationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/codes/MiniRpcEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/HessianSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/hession2/HessianSerialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/classes/com/rpc/protocol/serialization/SerializationFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_provider/rpc_provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_provider/rpc_provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_provider/target/classes/META-INF/rpc_provider.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_registry/rpc_registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_registry/rpc_registry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/kryo/kryoSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_protocol/src/main/java/com/rpc/protocol/serialization/kryo/kryoSerialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,13 +108,26 @@
       <recent name="com.dc.rpc.provider" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RpcProviderApplication">
+  <component name="RunManager" selected="Application.classsad">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rpc.protocol.Solution" />
       <module name="rpc_protocol" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rpc.protocol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classsad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rpc.protocol.serialization.kryo.classsad" />
+      <module name="rpc_protocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rpc.protocol.serialization.kryo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,9 +197,11 @@
       <item itemvalue="Spring Boot.MinRpcApplication" />
       <item itemvalue="Spring Boot.RpcConsumerApplication" />
       <item itemvalue="Spring Boot.RpcProviderApplication" />
+      <item itemvalue="Application.classsad" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.classsad" />
         <item itemvalue="Spring Boot.RpcProviderApplication" />
         <item itemvalue="Spring Boot.RpcConsumerApplication" />
         <item itemvalue="Application.Solution" />
@@ -269,7 +234,7 @@
       <workItem from="1660098201674" duration="4963000" />
       <workItem from="1660113898880" duration="3807000" />
       <workItem from="1660118082244" duration="567000" />
-      <workItem from="1660118670196" duration="6581000" />
+      <workItem from="1660118670196" duration="8274000" />
     </task>
     <task id="LOCAL-00001" summary="第一版本">
       <created>1654096369148</created>
@@ -285,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660050969713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加kryo,protobuf序列化方式">
+      <created>1660139174925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660139174925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +278,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一版本" />
     <MESSAGE value="结点Dubbo思路增加增强版spi机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="结点Dubbo思路增加增强版spi机制" />
+    <MESSAGE value="增加kryo,protobuf序列化方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加kryo,protobuf序列化方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,6 +293,11 @@
           <url>file://$PROJECT_DIR$/rpc_consumer/src/main/java/com/dc/rpc/consumer/RpcInvokerProxy.java</url>
           <line>84</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/jdk-687fd7c7986d/src/share/classes/java/lang/ThreadLocal.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
